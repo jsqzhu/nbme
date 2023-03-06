@@ -1,6 +1,8 @@
-NBME - Score Clinical Patient Notes
+# NBME - Score Clinical Patient Notes
 
-Background
+## Background
 
-Objectives
+## Objectives
+Develop a model to identify and map out concepts in clinical dictation
 
+## Data
