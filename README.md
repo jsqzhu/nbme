@@ -16,7 +16,7 @@ Pre-trained models to consider:
 [Bio_ClinicalBert](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT): a BERT-based model that is pre-trained on all notes from [MIMIC III](https://www.nature.com/articles/sdata201635) database; but the limitation is the max_sequence_length = 128
 Roberta: OOM issue -> parralel computing or ??
 
-## II. Two Segment
+## II. Two Segments
 In the second approach, feature entities + note text are both fed into BERT as inputs; the resulting tokens are mapped to a total of 3 classes:
 - 1: token is part of a feature entity
 - -1: if token is part of the feature entity (seq_id=0), or if it belongs to a special tokens ([CLS], [SEP]) that are not part of the note text
