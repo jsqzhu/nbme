@@ -11,9 +11,9 @@ The provided train dataset is consisted of 10 distinct clinical cases, each with
 ## Approach
 Two approaches for token classification
 ## I. NER using One Segment
-In the first approach, note text is first tokenized; each token is then mapped to a total of 143 (features) + 1(empty) classes
-Pre-trained models considered:
-[Bio_ClinicalBert](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT): a BERT-based model that is pre-trained on all notes from [MIMIC III](https://www.nature.com/articles/sdata201635) database; but the limitation is the max_sequence_length = 128
+In the first approach, note text is first tokenized; each token is then mapped to a total of 143 (features) + 1(empty) classes\
+Pre-trained models considered:\
+[Bio_ClinicalBert](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT): a BERT-based model that is pre-trained on all notes from [MIMIC III](https://www.nature.com/articles/sdata201635) database; but the limitation is the max_sequence_length = 128\
 Roberta: OOM issue due to # of classes
 
 ## II. Two Segments
