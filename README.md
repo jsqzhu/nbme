@@ -28,6 +28,7 @@ Pre-trained model considered:
 [PubMedBert](https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext): pretrained using data from PubMed
 Trained for 10 epochs using
 hyperparameters:
+
 {
     "max_length": 416,
     "padding": "max_length",
@@ -41,10 +42,12 @@ hyperparameters:
     "seed": 1268,
     "batch_size": 8
 }
+
 Model performance on test data:
+
 {'Accuracy': 0.9941225458593618,
   'precision': 0.7668322154523578,
   'recall': 0.86587269468694,
   'f1': 0.8133485391549908}
 
-Conclusions: model performs moderately well on test set but we did observe overfitting so there is room for improvement. Likely cause is the class imblance between class 1 and 0.
+## Conclusions: model performs moderately well on test set but we did observe overfitting so there is room for improvement. Likely cause is the class imblance between class 1 and 0.
