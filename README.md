@@ -50,4 +50,5 @@ Model performance on test data:
   'recall': 0.86587269468694,\
   'f1': 0.8133485391549908}
 
-## Conclusions: model performs moderately well on test set but we did observe overfitting so there is room for improvement. Likely cause is the class imblance between class 1 and 0.
+## Conclusions: 
+model performs moderately well on test set but we did observe overfitting so there is room for improvement. Likely cause is the class imblance between class 1 and 0.
